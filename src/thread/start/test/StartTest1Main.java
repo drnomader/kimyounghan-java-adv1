@@ -1,15 +1,14 @@
-package thread.collection.start.test;
+package thread.start.test;
 
 import static util.MyLogger.log;
 
-public class StartTest2Main {
+public class StartTest1Main {
 	public static void main(String[] args) {
-		Thread thread = new Thread(new CounterRunnable(), "counter");
+		CounterThread thread = new CounterThread();
 		thread.start();
 	}
 
-	static class CounterRunnable implements Runnable {
-
+	static class CounterThread extends Thread {
 		@Override
 		public void run() {
 			for (int i = 1; i <= 5; i++) {

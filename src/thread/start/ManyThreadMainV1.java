@@ -1,4 +1,4 @@
-package thread.collection.start;
+package thread.start;
 
 import static util.MyLogger.log;
 

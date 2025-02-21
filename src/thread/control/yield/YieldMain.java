@@ -1,7 +1,6 @@
 package thread.control.yield;
 
 import static util.MyLogger.log;
-import static util.ThreadUtils.sleep;
 
 public class YieldMain {
 

@@ -1,15 +1,8 @@
 
 package thread.bounded;
 
-import java.util.ArrayDeque;
-import java.util.Queue;
 import java.util.concurrent.ArrayBlockingQueue;
 import java.util.concurrent.BlockingQueue;
-import java.util.concurrent.locks.Condition;
-import java.util.concurrent.locks.Lock;
-import java.util.concurrent.locks.ReentrantLock;
-
-import static util.MyLogger.log;
 
 public class BoundedQueueV6_1 implements BoundedQueue {
 

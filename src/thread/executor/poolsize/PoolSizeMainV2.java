@@ -2,7 +2,8 @@ package thread.executor.poolsize;
 
 import thread.executor.RunnableTask;
 
-import java.util.concurrent.*;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
 
 import static thread.executor.ExecutorUtils.printState;
 import static util.MyLogger.log;
